@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="FHC Trip" duration-ms="122998" started-at="2020-05-17T23:51:41 EEST" finished-at="2020-05-17T23:53:44 EEST">
+    <groups>
+    </groups>
+    <test name="Testing with chrome" duration-ms="65479" started-at="2020-05-17T23:51:41 EEST" finished-at="2020-05-17T23:52:46 EEST">
+      <class name="com.techproed.crossbrowsertests.PositiveTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.techproed.crossbrowsertests.PositiveTest@67784306]" name="setUp" is-config="true" duration-ms="5598" started-at="2020-05-17T23:52:24 EEST" finished-at="2020-05-17T23:52:30 EEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="positiveLoginTest()[pri:0, instance:com.techproed.crossbrowsertests.PositiveTest@67784306]" name="positiveLoginTest" duration-ms="15833" started-at="2020-05-17T23:52:30 EEST" finished-at="2020-05-17T23:52:45 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- positiveLoginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.techproed.crossbrowsertests.PositiveTest@67784306]" name="tearDown" is-config="true" duration-ms="768" started-at="2020-05-17T23:52:45 EEST" finished-at="2020-05-17T23:52:46 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.techproed.crossbrowsertests.PositiveTest -->
+      <class name="com.techproed.crossbrowsertests.NegativeTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.techproed.crossbrowsertests.NegativeTest@185d8b6]" name="setUp" is-config="true" duration-ms="6509" started-at="2020-05-17T23:51:41 EEST" finished-at="2020-05-17T23:51:47 EEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="invalidID()[pri:0, instance:com.techproed.crossbrowsertests.NegativeTest@185d8b6]" name="invalidID" duration-ms="7247" started-at="2020-05-17T23:51:47 EEST" finished-at="2020-05-17T23:51:55 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidID -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.techproed.crossbrowsertests.NegativeTest@185d8b6]" name="tearDown" is-config="true" duration-ms="761" started-at="2020-05-17T23:51:55 EEST" finished-at="2020-05-17T23:51:55 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.techproed.crossbrowsertests.NegativeTest@185d8b6]" name="setUp" is-config="true" duration-ms="5670" started-at="2020-05-17T23:51:55 EEST" finished-at="2020-05-17T23:52:01 EEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="invalidIDAndPass()[pri:0, instance:com.techproed.crossbrowsertests.NegativeTest@185d8b6]" name="invalidIDAndPass" duration-ms="7646" started-at="2020-05-17T23:52:01 EEST" finished-at="2020-05-17T23:52:09 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidIDAndPass -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.techproed.crossbrowsertests.NegativeTest@185d8b6]" name="tearDown" is-config="true" duration-ms="891" started-at="2020-05-17T23:52:09 EEST" finished-at="2020-05-17T23:52:10 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.techproed.crossbrowsertests.NegativeTest@185d8b6]" name="setUp" is-config="true" duration-ms="5530" started-at="2020-05-17T23:52:10 EEST" finished-at="2020-05-17T23:52:15 EEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="invalidPass()[pri:0, instance:com.techproed.crossbrowsertests.NegativeTest@185d8b6]" name="invalidPass" duration-ms="8123" started-at="2020-05-17T23:52:15 EEST" finished-at="2020-05-17T23:52:23 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidPass -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.techproed.crossbrowsertests.NegativeTest@185d8b6]" name="tearDown" is-config="true" duration-ms="837" started-at="2020-05-17T23:52:23 EEST" finished-at="2020-05-17T23:52:24 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.techproed.crossbrowsertests.NegativeTest -->
+    </test> <!-- Testing with chrome -->
+    <test name="Testing with firefox" duration-ms="57463" started-at="2020-05-17T23:52:46 EEST" finished-at="2020-05-17T23:53:44 EEST">
+      <class name="com.techproed.crossbrowsertests.PositiveTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.techproed.crossbrowsertests.PositiveTest@2b552920]" name="setUp" is-config="true" duration-ms="4447" started-at="2020-05-17T23:53:27 EEST" finished-at="2020-05-17T23:53:31 EEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="positiveLoginTest()[pri:0, instance:com.techproed.crossbrowsertests.PositiveTest@2b552920]" name="positiveLoginTest" duration-ms="10954" started-at="2020-05-17T23:53:31 EEST" finished-at="2020-05-17T23:53:42 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- positiveLoginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.techproed.crossbrowsertests.PositiveTest@2b552920]" name="tearDown" is-config="true" duration-ms="1802" started-at="2020-05-17T23:53:42 EEST" finished-at="2020-05-17T23:53:44 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.techproed.crossbrowsertests.PositiveTest -->
+      <class name="com.techproed.crossbrowsertests.NegativeTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.techproed.crossbrowsertests.NegativeTest@627551fb]" name="setUp" is-config="true" duration-ms="6204" started-at="2020-05-17T23:52:46 EEST" finished-at="2020-05-17T23:52:53 EEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="invalidID()[pri:0, instance:com.techproed.crossbrowsertests.NegativeTest@627551fb]" name="invalidID" duration-ms="6198" started-at="2020-05-17T23:52:53 EEST" finished-at="2020-05-17T23:52:59 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidID -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.techproed.crossbrowsertests.NegativeTest@627551fb]" name="tearDown" is-config="true" duration-ms="1916" started-at="2020-05-17T23:52:59 EEST" finished-at="2020-05-17T23:53:01 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.techproed.crossbrowsertests.NegativeTest@627551fb]" name="setUp" is-config="true" duration-ms="4962" started-at="2020-05-17T23:53:01 EEST" finished-at="2020-05-17T23:53:06 EEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="invalidIDAndPass()[pri:0, instance:com.techproed.crossbrowsertests.NegativeTest@627551fb]" name="invalidIDAndPass" duration-ms="6275" started-at="2020-05-17T23:53:06 EEST" finished-at="2020-05-17T23:53:12 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidIDAndPass -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.techproed.crossbrowsertests.NegativeTest@627551fb]" name="tearDown" is-config="true" duration-ms="1705" started-at="2020-05-17T23:53:12 EEST" finished-at="2020-05-17T23:53:14 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.techproed.crossbrowsertests.NegativeTest@627551fb]" name="setUp" is-config="true" duration-ms="4445" started-at="2020-05-17T23:53:14 EEST" finished-at="2020-05-17T23:53:18 EEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="invalidPass()[pri:0, instance:com.techproed.crossbrowsertests.NegativeTest@627551fb]" name="invalidPass" duration-ms="6906" started-at="2020-05-17T23:53:18 EEST" finished-at="2020-05-17T23:53:25 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidPass -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.techproed.crossbrowsertests.NegativeTest@627551fb]" name="tearDown" is-config="true" duration-ms="1643" started-at="2020-05-17T23:53:25 EEST" finished-at="2020-05-17T23:53:27 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.techproed.crossbrowsertests.NegativeTest -->
+    </test> <!-- Testing with firefox -->
+  </suite> <!-- FHC Trip -->
+</testng-results>
